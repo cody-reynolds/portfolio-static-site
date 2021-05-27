@@ -14,7 +14,11 @@ block content
   article.portfolio-project-thumbs
     .projects-box.box.grid
 
-    img(src='/public/images/proj1square.jpeg')
+    for project in projects 
+      .cell 
+      a(href=`${project.github_link}`)
+        img(src=`${project.image_urls[0]}`, alt=`${project.name}`)
+        h5= `${project.name}`
 
 
 
