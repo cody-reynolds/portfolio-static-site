@@ -3,45 +3,45 @@
         {
             "id": 1,
             "project_name": "Random Quote Generator",
-            "description": "A JavaScript project that generates random movie quotes",
-            "technologies": ["html", "css", "javascript"],
-            "live_link": "Link to GitHub Pages profile will go here",
+            "description": "A JavaScript project that generates a random movie quote from an array of 10 quotes. Utilizing JavaScript's setInterval function, a new quote is automatically generated every 15 seconds.",
+            "technologies": ["HTML", "CSS", "JavaScript array methods", "setInterval"],
+            "live_link": "https://cody-reynolds.github.io/random-quote-generator/",
             "github_link": "https://github.com/cody-reynolds/random-quote-generator",
             "image_urls": ["/static/images/proj1square.jpeg", "/static/images/proj1landscape.jpeg"]
         },
         {
             "id": 2,
             "project_name": "Data Pagination and Filtering",
-            "description": "JavaScript project using data pagination and filtering techniques to display student data",
-            "technologies": ["html", "css", "javascript"],
-            "live_link": "Link to GitHub Pages profile will go here",
+            "description": "A JavaScript project using data pagination and filtering techniques to display student data. The built-in search functionality allows the user to look for names. The application accepts partial matches and dynamically filters the data to only display names containing the search text. The number of pages also adjusts based on the number of student names that have matched the search.",
+            "technologies": ["HTML", "CSS", "JavaScript (DOM manipulation)", "JavaScript (event listeners)"],
+            "live_link": "https://cody-reynolds.github.io/data-pagination-and-filtering/",
             "github_link": "https://github.com/cody-reynolds/data-pagination-and-filtering",
             "image_urls": ["/static/images/proj2square.jpeg", "/static/images/proj2landscape.jpeg"]
         },
         {
             "id": 3,
             "project_name": "Conference Registration Form",
-            "description": "Demo of detailed HTML form validation using JavaScript regular expressions",
-            "technologies": ["html", "css", "javascript"],
-            "live_link": "Link to GitHub Pages profile will go here",
+            "description": "A registration form for a fictional developer conference. The form uses JavaScript regular expressions to perform client-side data validation. A number of features are built-in for accessibility (for example: no mouse is required to complete the form). All form fields must be valid in order for the form to submit.",
+            "technologies": ["HTML", "CSS", "JavaScript (regular expressions)"],
+            "live_link": "https://cody-reynolds.github.io/interactive-form-project/",
             "github_link": "https://github.com/cody-reynolds/interactive-form-project",
             "image_urls": ["/static/images/proj3square.jpeg", "/static/images/proj3landscape1.jpeg", "/static/images/proj3landscape2.jpeg"]
         },
         {
             "id": 4,
             "project_name": "Phrase Hunter",
-            "description": "Game application utilizing object-oriented JavaScript",
-            "technologies": ["html", "css", "javascript"],
-            "live_link": "Link to GitHub Pages profile will go here",
+            "description": "A word game application utilizing object-oriented JavaScript. The user is given a virtual keyboard and a random phrase. The user guesses letters that are in the phrase. If five letters are selected that are not part of the phrase, the game ends.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Object-oriented Programming"],
+            "live_link": "https://cody-reynolds.github.io/oop-game-show-app/",
             "github_link": "https://github.com/cody-reynolds/oop-game-show-app",
-            "image_urls": ["/static/images/proj4square.jpeg", "/static/images/proj4landscape1.jpeg", "/static/images/proj4landscape2.jpeg", "public/images/proj4landscape3.jpeg"]
+            "image_urls": ["/static/images/proj4square.jpeg", "/static/images/proj4landscape1.jpeg", "/static/images/proj4landscape2.jpeg", "/static/images/proj4landscape3.jpeg"]
         },
         {
             "id": 5,
             "project_name": "API Employee Directory",
-            "description": "JavaScript project using APIs and JSON to create an employee directory",
-            "technologies": ["html", "css", "javascript"],
-            "live_link": "Link to GitHub Pages profile will go here",
+            "description": "This project is a demo of the fetch API in standard JavaScript. It creates a group of 12 employee profile cards on the page with data from a random users endpoint. Upon click, a more detailed modal card appears with additional user information. A new group of 12 users are fetched from the endpoint upon page refresh.",
+            "technologies": ["HTML", "CSS", "AJAX", "JavaScript (Fetch API)"],
+            "live_link": "https://cody-reynolds.github.io/public-api-requests-project/",
             "github_link": "https://github.com/cody-reynolds/public-api-requests-project",
             "image_urls": ["/static/images/proj5square.jpeg", "/static/images/proj5landscape1.jpeg", "/static/images/proj5landscape2.jpeg"]
         }
