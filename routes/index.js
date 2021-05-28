@@ -16,7 +16,8 @@ router.get('/projects/:id', (req, res, next) => {
     const projectId = req.params.id;
     const project = projects.find( ({ id }) => id === +projectId );
 
-    if (project) {
+
+    if (project) { //Changed these param to 'test' to check the 500 error handler.
         return res.render('project', { project });
       } else {
             const err = new Error();
@@ -33,8 +34,6 @@ router.use((req, res, next) => {
      const err = new Error();
      err.status = 404;
      err.message = "This page does not exist.";
-     console.log(err.message);
-     console.log(err.status);
      res.render('page-not-found', {err} );
  });
 
@@ -43,7 +42,9 @@ router.use((err, req, res, next) => {
     if(err.status === 404) {
         res.status(404).render('page-not-found', {err});
     } else {
-        console.log("Something broke!")
+        err.message = `Uh-oh! Something went wrong on the server.`;
+        err.status = 500;
+        res.render('error', {err});
     }
 
 });
