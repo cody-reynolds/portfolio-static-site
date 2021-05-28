@@ -11,7 +11,7 @@
         },
         {
             "id": 2,
-            "project_name": "Data Pagination and Filtering",
+            "project_name": "Student Directory",
             "description": "A JavaScript project using data pagination and filtering techniques to display student data. The built-in search functionality allows the user to look for names. The application accepts partial matches and dynamically filters the data to only display names containing the search text. The number of pages also adjusts based on the number of student names that have matched the search.",
             "technologies": ["HTML", "CSS", "JavaScript (DOM manipulation)", "JavaScript (event listeners)"],
             "live_link": "https://cody-reynolds.github.io/data-pagination-and-filtering/",
@@ -30,7 +30,7 @@
         {
             "id": 4,
             "project_name": "Phrase Hunter",
-            "description": "A word game application utilizing object-oriented JavaScript. The user is given a virtual keyboard and a random phrase. The user guesses letters that are in the phrase. If five letters are selected that are not part of the phrase, the game ends.",
+            "description": "A word game application built with object-oriented JavaScript. The user is given a virtual keyboard and a random phrase. The user guesses letters that are in the phrase. If five letters are selected that are not part of the phrase, the game ends.",
             "technologies": ["HTML", "CSS", "JavaScript", "Object-oriented Programming"],
             "live_link": "https://cody-reynolds.github.io/oop-game-show-app/",
             "github_link": "https://github.com/cody-reynolds/oop-game-show-app",

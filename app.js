@@ -16,7 +16,7 @@ const pug = require('pug');
 app.set('views', path.join(__dirname, 'views')); 
 app.set('view engine', 'pug');
 
-//Serves the static files - tells the app they are stored in a folder called 'public'
+//Serves the static files - tells the app they are stored in a folder called 'public', behind the virtual path 'static'
 app.use('/static', express.static('public'));
 
 
