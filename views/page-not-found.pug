@@ -1,0 +1,13 @@
+extends layout.pug 
+
+block content
+
+    h1= err.message
+    h2= `You've reached the ${err.status} error page.`
+    p  Perhaps you're looking for a great new project that I haven't created yet. I'll make a page for it once it's done.
+
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back
