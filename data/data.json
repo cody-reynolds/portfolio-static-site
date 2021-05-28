@@ -1,49 +1,49 @@
 {
     "projects": [
         {
-            "id": 0,
+            "id": 1,
             "project_name": "Random Quote Generator",
             "description": "A JavaScript project that generates random movie quotes",
             "technologies": ["html", "css", "javascript"],
             "live_link": "Link to GitHub Pages profile will go here",
             "github_link": "https://github.com/cody-reynolds/random-quote-generator",
-            "image_urls": ["public/images/proj1square.jpeg", "public/images/proj1landscape.jpeg"]
+            "image_urls": ["/static/images/proj1square.jpeg", "/static/images/proj1landscape.jpeg"]
         },
         {
-            "id": 1,
+            "id": 2,
             "project_name": "Data Pagination and Filtering",
             "description": "JavaScript project using data pagination and filtering techniques to display student data",
             "technologies": ["html", "css", "javascript"],
             "live_link": "Link to GitHub Pages profile will go here",
             "github_link": "https://github.com/cody-reynolds/data-pagination-and-filtering",
-            "image_urls": ["public/images/proj2square.jpeg", "public/images/proj2landscape.jpeg"]
+            "image_urls": ["/static/images/proj2square.jpeg", "/static/images/proj2landscape.jpeg"]
         },
         {
-            "id": 2,
+            "id": 3,
             "project_name": "Conference Registration Form",
             "description": "Demo of detailed HTML form validation using JavaScript regular expressions",
             "technologies": ["html", "css", "javascript"],
             "live_link": "Link to GitHub Pages profile will go here",
             "github_link": "https://github.com/cody-reynolds/interactive-form-project",
-            "image_urls": ["public/images/proj3square.jpeg", "public/images/proj3landscape1.jpeg", "public/images/proj3landscape2.jpeg"]
+            "image_urls": ["/static/images/proj3square.jpeg", "/static/images/proj3landscape1.jpeg", "/static/images/proj3landscape2.jpeg"]
         },
         {
-            "id": 3,
+            "id": 4,
             "project_name": "Phrase Hunter",
             "description": "Game application utilizing object-oriented JavaScript",
             "technologies": ["html", "css", "javascript"],
             "live_link": "Link to GitHub Pages profile will go here",
             "github_link": "https://github.com/cody-reynolds/oop-game-show-app",
-            "image_urls": ["public/images/proj4square.jpeg", "public/images/proj4landscape1.jpeg", "public/images/proj4landscape2.jpeg", "public/images/proj4landscape3.jpeg"]
+            "image_urls": ["/static/images/proj4square.jpeg", "/static/images/proj4landscape1.jpeg", "/static/images/proj4landscape2.jpeg", "public/images/proj4landscape3.jpeg"]
         },
         {
-            "id": 4,
+            "id": 5,
             "project_name": "API Employee Directory",
             "description": "JavaScript project using APIs and JSON to create an employee directory",
             "technologies": ["html", "css", "javascript"],
             "live_link": "Link to GitHub Pages profile will go here",
             "github_link": "https://github.com/cody-reynolds/public-api-requests-project",
-            "image_urls": ["public/images/proj5square.jpeg", "public/images/proj5landscape1.jpeg", "public/images/proj5landscape2.jpeg"]
+            "image_urls": ["/static/images/proj5square.jpeg", "/static/images/proj5landscape1.jpeg", "/static/images/proj5landscape2.jpeg"]
         }
     ]
 }

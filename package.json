@@ -4,15 +4,16 @@
   "description": "Web development portfolio site using node.js and express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "author": "Cody Reynolds",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "pug": "^3.0.2"
+    "pug": "^3.0.2",
+    "nodemon": "^2.0.7"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
   }
 }

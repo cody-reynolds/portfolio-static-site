@@ -8,19 +8,17 @@ block content
     h1 Cody's Portfolio
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p This is a collection of my web development projects. I built these projects as part of Team Treehouse's Full Stack JavaScript curriculum. Please take a look at the work I've done in HTML, CSS, and JavaScript!
+    p This is a collection of my web development projects. Please take a look at the work I've done in HTML, CSS, and JavaScript.
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
 
-    for project in projects 
+    each project in projects 
       .cell 
-      a(href=`${project.github_link}`)
-        img(src=`${project.image_urls[0]}`, alt=`${project.name}`)
-        h5= `${project.name}`
-
-
+        a(href=`projects/${project.id}`)
+          img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name}`)
+          h5= project.project_name
 
 
       //- Use the Pug `each` iterator to loop over the projects in your data file  
@@ -34,4 +32,3 @@ block content
         //-   a(href='#')
         //-     img.thumbnail(src='https://placehold.it/550x550', alt='')
         //-     h5 My Site
-
