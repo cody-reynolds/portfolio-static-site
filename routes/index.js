@@ -37,12 +37,12 @@ router.get('/projects/:id', (req, res, next) => {
 
 
 //404 Error Handler
-router.use((req, res, next) => {
-     console.log('404 error handler called - This page does not exist.')
+router.use('/', (req, res, next) => {
      const err = new Error();
      err.status = 404;
      err.message = "This page does not exist.";
      res.render('page-not-found', {err} );
+     console.log(`${err.status} error handler called. ${err.message}`);
  });
 
 //Global Error Handler
